@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="form">
+        <h2>Quiz Application</h2>
+        <h3 id="question">Loading question...</h3>
+        <div id="options">
+          <div>
+            <a href="#" onclick="selectAnswer(0)" style="--clr: #1e9bff"
+              ><span id="optionA">Option A</span><i></i
+            ></a>
+          </div>
+          <div>
+            <a href="#" onclick="selectAnswer(1)" style="--clr: #6eff3e"
+              ><span id="optionB">Option B</span><i></i
+            ></a>
+          </div>
+          <div>
+            <a href="#" onclick="selectAnswer(2)" style="--clr: #ff1867"
+              ><span id="optionC">Option C</span><i></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
